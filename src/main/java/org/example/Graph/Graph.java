@@ -32,7 +32,7 @@ public class Graph {
         }
         return false;
     }
-
+//test
     public boolean removeVertex(String vertex){
         if(adjList.get(vertex)==null) return false;
         for(String otherVertex:adjList.get(vertex)){
